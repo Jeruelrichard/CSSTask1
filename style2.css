@@ -1,0 +1,18 @@
+body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:sans-serif;
+    background-color:#f9f9f9;
+}
+
+.message {
+    text-align:center;
+    padding:20px;
+    background:#e0ffe0;
+    border:2px solid #4CAF50;
+    border-radius:10px;
+    color:#2e7d32;
+    font-size:1.5em;
+}
