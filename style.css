@@ -87,3 +87,24 @@ button:hover {
     transform:scale(1.05);
     color:#0044cc;
 }
+
+@media(max-width:800px) {
+    .container {
+        flex-direction:column;
+        max-width:98vw;
+    }
+    .image-container {
+        width:100%;
+        padding:5px 0;
+        display:flex;
+        justify-content:center;
+    }
+    .image-container img {
+        width:82vw;
+        height:auto;
+        border-radius: 20px 20px 0 0;
+    }
+    .text {
+        border-radius: 0 0 0 20px;
+    }
+}
